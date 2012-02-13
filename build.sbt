@@ -2,13 +2,13 @@ import AssemblyKeys._
 
 seq(assemblySettings: _*)
 
-name := "ScalaDummyProject"
+name := "cryptography"
 
 version := "1.0"
 
 scalaVersion := "2.9.1"
 
-mainClass in assembly := Some("Main")
+mainClass in assembly := Some("vc.ksk.cryptography.Main")
 
 jarName in assembly <<= name {_ + ".jar"}
 
